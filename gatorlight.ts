@@ -37,13 +37,15 @@ namespace gatorlight {
     export function light(pin: AnalogPin, type: gatorlightType): number {
         let ADCVal = pins.analogReadPin(pin)
         switch (type) {
-            case gatorlightType.Lux: return getLux(ADCVal)
+            // case gatorlightType.Lux: return getLux(ADCVal)
+            case gatorlightType.Lux: return getLux(5)
             case gatorlightType.adcVal: return ADCVal
             default: return -11111111
         }
     }
     //% weight=33 blockId="gatorlight_light2" block="bububu"
     export function light2(): number {
+        
         return getLux2(1);
     }
 
