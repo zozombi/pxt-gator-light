@@ -44,11 +44,10 @@ namespace gatorlight {
             default: return -11111111
         }
     }
-    //% weight=33 blockId="gatorlight_light2" block="bububu"
-    export function light2(): number {
-
-        return getLux2(1);
-    }
+    // //% weight=33 blockId="gatorlight_light2" block="bububu"
+    // export function light2(): number {
+    //     return getLux2(1);
+    // }
 
 
 	/**
@@ -62,7 +61,7 @@ namespace gatorlight {
     //% shim=gatorlight::getLux2
     function getLux2(ADCVal: number) {
         // Fake function for simulator
-        return 3
+        return 0
     }
 
 }
