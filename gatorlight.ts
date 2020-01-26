@@ -38,7 +38,7 @@ namespace gatorlight {
         let ADCVal = pins.analogReadPin(pin)
         switch (type) {
             // case gatorlightType.Lux: return getLux(ADCVal)
-            case gatorlightType.Lux: return getLux(5)
+            case gatorlightType.Lux: return getLux(6)
             case gatorlightType.adcVal: return ADCVal
             default: return -11111111
         }
