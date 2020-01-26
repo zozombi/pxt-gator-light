@@ -29,7 +29,7 @@ namespace gatorlight {
 
         return ADCVal * .976;
     }
-    //%
+
     // uint16_t getLux2(void) {
     //     return 7;
     // }
