@@ -59,7 +59,7 @@ namespace gatorlight {
         // Fake function for simulator
         return 0
     }
-    //% shim=gatorlight::getLux
+    //% shim=gatorlight::getLux2
     function getLux2(ADCVal: number) {
         // Fake function for simulator
         return 3
