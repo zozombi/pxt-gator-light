@@ -43,17 +43,6 @@ namespace gatorlight {
         }
     }
 
-    //% weight=30 blockId="gatorlight_setPin" block="susususu"
-    export function setPin() {
-        let aa = setPinHigh();
-        basic.showNumber(aa);
-    }
-    //% shim=gatorlight::setPinHigh
-    function setPinHigh(): number {
-        // Fake function for simulator
-        return 0
-    }
-
 	/**
      * Function used for simulator, actual implementation is in gatorlight.cpp
      */

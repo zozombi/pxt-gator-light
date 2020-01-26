@@ -29,12 +29,5 @@ namespace gatorlight {
 
         return ADCVal * .976;
     }
-    uint16_t setPinHigh()
-    {
-        //MicroBitPin P0(MICROBIT_ID_IO_P0, MICROBIT_PIN_P0, PIN_CAPABILITY_BOTH); 
-        //P0.setDigitalValue(1); // P0 is now HI 
-        //uBit.display.scroll("HELLO!", 100);
-        return 254;
-    }
 }
 
