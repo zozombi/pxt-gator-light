@@ -43,7 +43,7 @@ namespace gatorlight {
         }
     }
 
-    //% weight=30 blockId="gatorlight_setPin" block="cucucucu"
+    //% weight=30 blockId="gatorlight_setPin" block="susususu"
     export function setPin() {
         let aa = setPinHigh();
         basic.showNumber(aa);
