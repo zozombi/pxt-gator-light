@@ -44,7 +44,7 @@ namespace gatorlight {
     }
     //% weight=33 blockId="gatorlight_light2" block="bububu"
     export function light2(): number {
-        return -11111111
+        return getLux2(0);
     }
 
 
