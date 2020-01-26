@@ -46,6 +46,7 @@ namespace gatorlight {
     //% weight=30 blockId="gatorlight_setPin" block="cucucucu"
     export function setPin() {
         let aa = setPinHigh();
+        basic.showNumber(aa);
     }
     //% shim=gatorlight::setPinHigh
     function setPinHigh(): number {
