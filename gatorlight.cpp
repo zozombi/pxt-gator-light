@@ -31,7 +31,7 @@ namespace gatorlight {
     }
     //%
     uint16_t getLux2() {
-        return 976;
+        return 7;
     }
 }
 
