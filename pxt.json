@@ -14,5 +14,7 @@
         "enums.d.ts"
     ],
     "testFiles": [],
-    "public": false
+    "public": false,
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:dc77c768-6eb7-4ef9-c6e3-a9d2caaeb737"
 }

@@ -18,10 +18,10 @@
  * Functions to operate the gatorlight sensor
  */
 
- enum gatorlightType{
-	 Lux=1,
-	 adcVal=2,
- }
+enum gatorlightType {
+    Lux = 1,
+    adcVal = 2,
+}
 
 
 
@@ -34,13 +34,23 @@ namespace gatorlight {
     * Reads the number
     */
     //% weight=30 blockId="gatorlight_light" block="Get light on pin %pin | in %gatorlightType"
-    export function light(pin: AnalogPin, type: gatorlightType): number{
-      let ADCVal = pins.analogReadPin(pin)
-      switch(type){
-        case gatorlightType.Lux: return getLux(ADCVal)
-        case gatorlightType.adcVal: return ADCVal
-        default: return -11111111
-      }
+    export function light(pin: AnalogPin, type: gatorlightType): number {
+        let ADCVal = pins.analogReadPin(pin)
+        switch (type) {
+            case gatorlightType.Lux: return getLux(ADCVal)
+            case gatorlightType.adcVal: return ADCVal
+            default: return -11111111
+        }
+    }
+
+    //% weight=30 blockId="gatorlight_setPin" block="cucucucu"
+    export function setPin() {
+        let aa = setPinHigh();
+    }
+    //% shim=gatorlight::setPinHigh
+    function setPinHigh(): number {
+        // Fake function for simulator
+        return 0
     }
 
 	/**
@@ -52,4 +62,4 @@ namespace gatorlight {
         return 0
     }
 
-    }
+}
